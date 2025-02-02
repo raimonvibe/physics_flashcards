@@ -1,6 +1,6 @@
 # Physics Flashcards 🎓⚡
 
-![Physics Flashcards](./psysics-flashcards.gif)
+![Physics Flashcards](./physics-flashcards.gif)
 
 Welcome to **Physics Flashcards**! This project is a simple and dynamic flashcard application built using Python and Tkinter. It is designed to help you master physics concepts quickly and interactively.
 
