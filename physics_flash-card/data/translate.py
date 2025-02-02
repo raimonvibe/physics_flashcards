@@ -2,7 +2,7 @@ import pandas as pd
 from googletrans import Translator
 
 # Bestandspaden
-input_file = "psysics.csv"  # Je oorspronkelijke CSV-bestand
+input_file = "physics.csv"  # Je oorspronkelijke CSV-bestand
 output_file = "physics_translated.csv"  # Het bestand met vertalingen
 
 # Lees het CSV-bestand
