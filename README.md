@@ -1,61 +1,82 @@
-# Flashy - Flashcard Learning Program
+# Physics Flashcards 🎓⚡
 
-Watch the demo on YouTube: [A Fun and Effective Way to Memorize Programming Terminology](https://www.youtube.com/watch?v=ldnk_Csg5Zg)
+![Physics Flashcards](./psysics-flashcards.gif)
 
-![Flashcard Demo](flashcard_demo.gif)
+Welcome to **Physics Flashcards**! This project is a simple and dynamic flashcard application built using Python and Tkinter. It is designed to help you master physics concepts quickly and interactively.
 
-Flashy is a Python program built using the Tkinter library that allows you to learn and memorize information using flashcards. It's a fun and interactive way to study and can be customized to suit different learning needs.
+## 🌟 Features
 
-## Features
+- 📚 **Interactive Flashcards**: Learn physics terms and their meanings with interactive flip animations.
+- 🕒 **Dynamic Flip Timer**: The cards flip dynamically based on the length of the term for an optimized learning experience.
+- 🌍 **CSV-based Custom Content**: Easily customize the flashcards by editing the CSV file.
+- 🖼️ **Dynamically Scaled UI**: The interface dynamically adjusts based on your screen size.
+- 💾 **Progress Tracking**: Cards marked as known are saved to track your learning progress.
 
-- Randomly presents flashcards with terms and their meanings.
-- Automatically flips the flashcard every 3 seconds to reveal the meaning.
-- Click the 'Known' button to remove the current flashcard from the deck and proceed to the next one.
-- Creates a new list without the known flashcards for future practice.
-
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
+Make sure you have the following installed:
 - Python 3.x
-- Tkinter library
-- Pandas Library
+- Required dependencies listed in `requirements.txt`
 
 ### Installation
 
 1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/physics-flashcards.git
+   cd physics-flashcards
+   ```
 
-git clone https://github.com/raimoncoding/flashcard_programming.git
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-2. Install dependencies
+### Running the Application
 
-pip install pandas
+Run the application using the following command:
+```bash
+python main.py
+```
 
-3. Run the program:
+## 📂 Project Structure
+```
+physics-flashcards/
+├── data/
+│   └── physics_translated.csv   # CSV file containing terms and meanings
+├── images/
+│   ├── card_front.png           # Front side of the card
+│   ├── card_back.png            # Back side of the card
+│   ├── right.png                # Correct answer button image
+│   └── wrong.png                # Incorrect answer button image
+├── main.py                      # Main program logic
+├── psysics-flashcards.gif       # Demo GIF showcasing the app
+├── requirements.txt             # Python dependencies
+└── README.md                    # Project documentation
+```
 
-python flashy.py
-// python3 flashy.py for MacOs users
+## 🛠️ Customizing the Flashcards
 
-## Usage
+To customize the terms and their meanings, edit the `physics_translated.csv` file inside the `data/` folder. Add new rows for additional flashcards:
+```
+Term,Meaning
+Velocity,The speed of an object in a given direction
+Kinetic Energy,Energy an object possesses due to its motion
+...
+```
 
-1. Upon launching the program, a flashcard will be displayed with a term on one side.
-2. The flashcard will automatically flip after 3 seconds to reveal the meaning on the other side.
-3. If you already know the term, click the 'Known' button to remove it from the deck and proceed to the next flashcard.
-4. The program will create a new list without the known flashcards for future practice.
-5. Continue with the new flashcards until you have learned all the terms.
+## ✨ Features to Explore
 
-## Contributing
+- Modify the flip timer duration to match your learning speed.
+- Customize the UI with different fonts or background colors.
+- Add new categories of flashcards beyond physics.
 
-Contributions are welcome! If you'd like to contribute to Flashy, please follow these steps:
+## 📜 License
+This project is open-source and available under the [MIT License](./LICENSE).
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and test them thoroughly.
-4. Commit and push your changes to your forked repository.
-5. Submit a pull request describing your changes.
+## 🤝 Contributing
+We welcome contributions! Feel free to open issues or submit pull requests.
 
-## License
-
-This project is licensed under the MIT LICENSE. The MIT License is a permissive open-source license that allows you to use, modify, and distribute the code in both commercial and non-commercial projects. However, it provides no warranty or liability protection. Please review the terms of the [license](https://github.com/raimoncoding/flashcard_programming/blob/main/LICENSE.txt) for more details.
-
-
+## 🙌 Acknowledgments
+Special thanks to all contributors and the Python community for making this project possible.
